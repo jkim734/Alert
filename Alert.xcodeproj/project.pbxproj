@@ -13,6 +13,9 @@
 		473885DE26C6D497009830D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 473885DC26C6D497009830D3 /* Main.storyboard */; };
 		473885E026C6D499009830D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 473885DF26C6D499009830D3 /* Assets.xcassets */; };
 		473885E326C6D499009830D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 473885E126C6D499009830D3 /* LaunchScreen.storyboard */; };
+		473885EE26C6D603009830D3 /* lightOff.png in Resources */ = {isa = PBXBuildFile; fileRef = 473885EB26C6D603009830D3 /* lightOff.png */; };
+		473885EF26C6D603009830D3 /* blackOut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 473885EC26C6D603009830D3 /* blackOut.jpg */; };
+		473885F026C6D603009830D3 /* lightOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 473885ED26C6D603009830D3 /* lightOn.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		473885DF26C6D499009830D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		473885E226C6D499009830D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		473885E426C6D499009830D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		473885EB26C6D603009830D3 /* lightOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lightOff.png; sourceTree = SOURCE_ROOT; };
+		473885EC26C6D603009830D3 /* blackOut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blackOut.jpg; sourceTree = SOURCE_ROOT; };
+		473885ED26C6D603009830D3 /* lightOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lightOn.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		473885D526C6D497009830D3 /* Alert */ = {
 			isa = PBXGroup;
 			children = (
+				473885EA26C6D5F9009830D3 /* images */,
 				473885D626C6D497009830D3 /* AppDelegate.swift */,
 				473885D826C6D497009830D3 /* SceneDelegate.swift */,
 				473885DA26C6D497009830D3 /* ViewController.swift */,
@@ -65,6 +72,16 @@
 				473885E426C6D499009830D3 /* Info.plist */,
 			);
 			path = Alert;
+			sourceTree = "<group>";
+		};
+		473885EA26C6D5F9009830D3 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				473885EC26C6D603009830D3 /* blackOut.jpg */,
+				473885EB26C6D603009830D3 /* lightOff.png */,
+				473885ED26C6D603009830D3 /* lightOn.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +143,9 @@
 			files = (
 				473885E326C6D499009830D3 /* LaunchScreen.storyboard in Resources */,
 				473885E026C6D499009830D3 /* Assets.xcassets in Resources */,
+				473885EE26C6D603009830D3 /* lightOff.png in Resources */,
+				473885F026C6D603009830D3 /* lightOn.png in Resources */,
+				473885EF26C6D603009830D3 /* blackOut.jpg in Resources */,
 				473885DE26C6D497009830D3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
